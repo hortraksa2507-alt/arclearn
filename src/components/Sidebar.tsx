@@ -12,12 +12,14 @@ import {
   Compass,
   GraduationCap,
   User,
+  Brain,
 } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 import { useAuth } from "@/context/AuthContext";
 
 const navItems = [
   { href: "/", labelKey: "nav.dashboard", icon: LayoutDashboard },
+  { href: "/study", labelKey: "nav.studyHub", icon: Brain },
   { href: "/courses", labelKey: "nav.courses", icon: BookOpen },
   { href: "/practice", labelKey: "nav.commandLab", icon: Terminal },
   { href: "/progress", labelKey: "nav.progress", icon: Trophy },

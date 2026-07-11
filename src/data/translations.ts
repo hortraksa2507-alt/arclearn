@@ -4,6 +4,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   en: {
     // Navigation & Layout
     "nav.dashboard": "Dashboard",
+    "nav.studyHub": "Study Hub",
     "nav.courses": "Courses",
     "nav.commandLab": "Command Lab",
     "nav.progress": "Progress",
@@ -155,6 +156,7 @@ export const translations: Record<Lang, Record<string, string>> = {
   km: {
     // Navigation & Layout
     "nav.dashboard": "ផ្ទាំងគ្រប់គ្រង",
+    "nav.studyHub": "មជ្ឈមណ្ឌលសិក្សា",
     "nav.courses": "វគ្គសិក្សា",
     "nav.commandLab": "មន្ទីរពិសោធន៍ពាក្យបញ្ជា",
     "nav.progress": "វឌ្ឍនភាព",
